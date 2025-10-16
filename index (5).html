@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Candidatura a Síndico — Flavio D. Freire</title>
+  <meta name="description" content="Plano de gestão condominial com metas de redução de custos, governança participativa e transparência ágil.">
+  <meta property="og:title" content="Candidatura a Síndico — Flavio D. Freire">
+  <meta property="og:description" content="Metas: redução ≥ 40% no valor do condomínio por unidade, gestão participativa e portal de transparência.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{
+      --bg:#0f172a; /* slate-900 */
+      --fg:#e2e8f0; /* slate-200 */
+      --muted:#94a3b8; /* slate-400 */
+      --card:#111827; /* gray-900 */
+      --accent:#22c55e; /* green-500 */
+      --accent-2:#06b6d4; /* cyan-500 */
+      --link:#38bdf8; /* sky-400 */
+      --border:#1f2937; /* gray-800 */
+      --shadow: 0 20px 40px rgba(0,0,0,.25);
+      --container: 1024px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,#0b1222, #0f172a 30%, #0b1222);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Helvetica,Arial;line-height:1.55}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--container);margin:0 auto;padding:24px}
+    header.hero{
+      background: radial-gradient(1200px 400px at 20% -10%, rgba(34,197,94,.25), transparent),
+                  radial-gradient(1200px 400px at 80% -10%, rgba(6,182,212,.2), transparent);
+      border-bottom:1px solid var(--border);
+    }
+    .hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+    h1{font-size:clamp(28px,3.2vw,44px);line-height:1.1;margin:0 0 12px}
+    .lead{font-size:clamp(16px,2vw,20px);color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);padding:20px}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:#0b1325;border:1px solid var(--border);padding:8px 12px;border-radius:999px;color:var(--muted);font-weight:600}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;background:var(--accent);color:#052e14;font-weight:700;border:0;box-shadow:var(--shadow)}
+    .btn.secondary{background:transparent;border:1px solid var(--border);color:var(--fg)}
+    nav.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    section{padding:48px 0;border-bottom:1px solid var(--border)}
+    h2{font-size:clamp(22px,2.6vw,32px);margin:0 0 12px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:860px){
+      .hero-inner{grid-template-columns:1fr}
+      .grid.cols-3{grid-template-columns:1fr}
+      .grid.cols-2{grid-template-columns:1fr}
+    }
+    ul{margin:0 0 0 20px}
+    li{margin:6px 0}
+    blockquote{margin:0;padding:16px 18px;border-left:4px solid var(--accent);background:#0b1325;border-radius:6px}
+    footer{color:var(--muted);padding:32px 0}
+    .kpi{display:flex;gap:16px;align-items:center}
+    .kpi .num{font-size:28px;font-weight:900;color:#c7f9cc}
+    .kpi small{color:var(--muted)}
+    .badge{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);border-radius:999px;padding:6px 10px;color:var(--muted)}
+    .toc{display:flex;gap:10px;flex-wrap:wrap}
+    .mini{font-size:13px;color:var(--muted)}
+    .spacer{height:8px}
+    .muted{color:var(--muted)}
+    .anchor{scroll-margin-top:90px}
+    .callout{background:#071018;border:1px dashed #123;border-radius:14px;padding:16px;color:#bfe4ff}
+    .list-compact li{margin:4px 0}
+    .right{display:flex;gap:10px;flex-wrap:wrap}
+    .hid{display:none}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="pill">Candidatura a Síndico</span>
+        <h1>Plano de Gestão — <span style="color:#a7f3d0">Flavio D. Freire</span></h1>
+        <p class="lead">Austeridade com participação e <strong>transparência ágil</strong>. Meta central: <strong>redução ≥ 40%</strong> no valor do condomínio por unidade, mirando ~ <strong>R$ 1.000,00</strong>, sem comprometer segurança e conformidade.</p>
+        <nav class="tabs">
+          <a class="btn" href="#metas">Metas & Indicadores</a>
+          <a class="btn secondary" href="#acoes">Ações de Economia</a>
+          <a class="btn secondary" href="#governanca">Governança</a>
+          <a class="btn secondary" href="#transparencia">Transparência</a>
+          <a class="btn secondary" href="#cemdias">100 dias</a>
+          <a class="btn secondary" href="flyer.html">Baixar flyer (1 pág.)</a>
+        </nav>
+        <div class="spacer"></div>
+        <div class="kpi">
+          <div class="num">-40%</div><small>Meta de redução do valor por unidade</small>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 6px">Compromissos imediatos</h3>
+        <ul class="list-compact">
+          <li><strong>Sem honorários</strong> e sem qualquer isenção para o síndico.</li>
+          <li>Revisão de <strong>100%</strong> dos contratos-chave com 3+ orçamentos.</li>
+          <li>Portal documental <strong>D+5 úteis</strong> após fechamento mensal.</li>
+          <li>Criação de <strong>Conselhos Consultivos</strong> voluntários (M2).</li>
+        </ul>
+        <p class="mini">*Suporte jurídico sempre que necessário; sem conflito de interesses.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="carta" class="anchor">
+      <h2>Carta aos Condôminos</h2>
+      <p>Coloco meu nome à disposição para exercer, <strong>sem remuneração e sem qualquer isenção</strong>, a função de síndico. Meu compromisso é <strong>reduzir o valor do condomínio por unidade em, no mínimo, 40%</strong>, trabalhando para que o total por unidade ao final da sindicatura fique em torno de <strong>R$ 1.000,00</strong> (meta indicativa), <strong>sem comprometer segurança, manutenção obrigatória ou conformidade legal</strong>.</p>
+      <p>Para atingir esse objetivo, proponho <strong>gestão participativa</strong> com conselhos consultivos voluntários e <strong>transparência ágil</strong> via repositório online, além de revisão rigorosa de contratos e despesas.</p>
+      <blockquote><strong>Nota de responsabilidade:</strong> A meta financeira será perseguida com base em auditoria inicial, cronograma e gatilhos de correção. Quaisquer despesas imprevistas (ex.: segurança, elevadores, AVCB, seguros) serão tratadas com total transparência e justificativa técnica.</blockquote>
+    </section>
+
+    <section id="metas" class="anchor">
+      <h2>Metas & Indicadores (OKRs)</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Meta financeira central</h3>
+          <ul>
+            <li><strong>Redução ≥ 40%</strong> no valor do condomínio por unidade até o mês 12 (~ R$ 1.000,00/unidade).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Indicadores mensais</h3>
+          <ul>
+            <li>Custo por unidade (R$)</li>
+            <li>% inadimplência (meta: reduzir)</li>
+            <li>% contratos revisados (meta: ≥ 80% até M6)</li>
+            <li>kWh/unidade e m³ de água/unidade</li>
+            <li>Saldo dos fundos (reserva e obras)</li>
+            <li>SLA de manutenção crítica (elevadores, bombas, portaria)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:12px">
+        <strong>Prestação de contas:</strong> relatórios mensais + resumo trimestral com gráficos comparativos no portal.
+      </div>
+    </section>
+
+    <section id="acoes" class="anchor">
+      <h2>10 Ações‑Chave para a Economia</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <ol>
+            <li>Síndico sem remuneração/benefícios.</li>
+            <li>Revisão de contratos (portaria, limpeza, elevadores, bombas, jardinagem, segurança, internet, CCTV) com <em>benchmarks</em> e cláusulas de desempenho.</li>
+            <li>Compras com 3+ orçamentos e matriz de decisão (preço x SLA x referências).</li>
+            <li>Jardinagem econômica: flores permanentes e mutirões voluntários.</li>
+            <li>Energia/água: checagem de vazamentos, automação simples (fotocélulas/timers), campanhas de uso consciente.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <ol start="6">
+            <li>Consumos comuns: revisar internet/TV/telefonia de áreas comuns; desligar cargas ociosas.</li>
+            <li>Manutenção preditiva: checklists + calendário anual.</li>
+            <li>Seguro condominial: reorçar coberturas e franquias.</li>
+            <li>Contencioso/assessoria: renegociar escopo/honorários; foco em prevenção.</li>
+            <li>Combate à inadimplência: comunicação humanizada e acordos padronizados.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="governanca" class="anchor">
+      <h2>Governança Participativa</h2>
+      <p><strong>Sem alteração de regimento:</strong> conselhos consultivos <em>abertos e voluntários</em> que produzem pareceres técnicos para apoiar síndico e conselhos formais.</p>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Conselhos propostos</h3>
+          <ul>
+            <li>Obras & Manutenção</li>
+            <li>Contratos & Custos</li>
+            <li>Compras & Sustentabilidade</li>
+            <li>Tecnologia & Transparência</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Funcionamento</h3>
+          <ul>
+            <li>Reuniões breves; ata simples.</li>
+            <li>Parecer objetivo (1–2 páginas) com custos, prós/contras.</li>
+            <li>Publicação no portal; assembleia delibera quando cabível.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="transparencia" class="anchor">
+      <h2>Transparência Ágil</h2>
+      <p><strong>Repositório online</strong> (estilo Google Drive) com acesso aos condôminos, organizado por <strong>ano/mês</strong>:</p>
+      <ul>
+        <li>Atas e Regimento</li>
+        <li>Relatórios financeiros (receitas, despesas, extratos, notas)</li>
+        <li>Contratos e aditivos</li>
+        <li>Orçamentos/comparativos</li>
+        <li>Laudos e manutenções (AVCB, elevadores, bombas)</li>
+        <li>Indicadores (dashboards)</li>
+      </ul>
+      <p><span class="badge">Prazo de publicação: D+5 úteis após fechamento mensal</span></p>
+      <div class="callout"><strong>Agente de IA (RAG):</strong> busca semântica e resumos apenas sobre os documentos do portal; privacidade preservada.</div>
+    </section>
+
+    <section id="cemdias" class="anchor">
+      <h2>Primeiros 100 Dias</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>D0–D15</h3>
+          <ul>
+            <li>Levantamento de contratos, garantias e vencimentos.</li>
+            <li>Auditoria rápida de despesas e consumos.</li>
+            <li>Portal documental ativo e acervo publicado.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>D16–D45</h3>
+          <ul>
+            <li>3 cotações para contratos principais; negociar troca/desconto.</li>
+            <li>Rotinas de manutenção e checagens de consumo.</li>
+            <li>Conselhos Consultivos instituídos e calendário trimestral.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>D46–D100</h3>
+          <ul>
+            <li>Relatório 1: economia projetada e metas por linha de custo.</li>
+            <li>Ajustes: iluminação comum, jardinagem, seguros.</li>
+            <li>Dashboard base e assembleia de acompanhamento (M+6 / M+12).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="minutas" class="anchor">
+      <h2>Minutas para Assembleia</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Conselhos Consultivos</h3>
+          <p>Autorizar a formação de conselhos voluntários com função de <strong>parecer consultivo</strong> (não deliberativo). Atas e pareceres publicados no portal.</p>
+        </div>
+        <div class="card">
+          <h3>Política de Transparência</h3>
+          <p>Publicação até <strong>D+5 úteis</strong> no repositório: atas, contratos, comprovantes, relatórios e indicadores.</p>
+        </div>
+        <div class="card">
+          <h3>Diretrizes de Contratação</h3>
+          <p>3+ orçamentos, matriz de decisão, indicadores e renovação condicionada a desempenho; revisão em 12 meses.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="anchor">
+      <h2>FAQ Rápido</h2>
+      <ul>
+        <li><strong>O síndico receberá?</strong> Não: sem honorários e sem benefícios.</li>
+        <li><strong>Haverá corte de itens essenciais?</strong> Não: austeridade com segurança e conformidade.</li>
+        <li><strong>Como acompanho as contas?</strong> Portal + relatórios mensais/trimestrais.</li>
+        <li><strong>Posso participar?</strong> Sim: conselhos consultivos voluntários e abertos.</li>
+        <li><strong>Despesas imprevistas?</strong> Publicadas, justificadas e deliberadas quando necessário.</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="anchor">
+      <h2>Contato</h2>
+      <p class="muted">E-mail: <a href="mailto:flavio@example.com">flavio@example.com</a> • (opcional) Grupo de moradores: link a definir</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="mini">© 2025 Flavio D. Freire — Proposta de gestão condominial. Este site é estático e pode ser publicado diretamente no GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
